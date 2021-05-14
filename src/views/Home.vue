@@ -7,9 +7,9 @@
 <script>
 // @ is an alias to /src
 
-import MainPage from '../components/MainPage/MainPage';
+import MainPage from "../components/MainPage/MainPage";
 export default {
   name: "Home",
-  components: {MainPage},
+  components: { MainPage },
 };
 </script>
