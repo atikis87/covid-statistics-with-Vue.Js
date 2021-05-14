@@ -1,15 +1,19 @@
 <template>
   <div>
-      
+      <Header title="Details"></Header>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
+import Header from '../components/Header';
 
 export default {
   name: "Details",
+  components: { Header },
 
 };
 </script>
+<style scoped>
+
+
+</style>

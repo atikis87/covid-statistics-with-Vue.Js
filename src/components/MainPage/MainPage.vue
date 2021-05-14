@@ -1,15 +1,16 @@
 <template>
   <div class="MainPage">
       <Header title="Covid Statistics"/>
+      <Table />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 
 import Header from '../Header'
+import Table from './Table'
 export default {
-  components:{Header},
+  components:{Table, Header},
 
   props:{
 
